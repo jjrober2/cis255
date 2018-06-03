@@ -1,0 +1,169 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	margin: 0 auto;
+	padding: 10px 0px 5px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #0f0;
+    }
+}
+
+h1	{
+	color: black;
+	text-align: left;
+	display: inline;
+	position: fixed;
+	background-color: #efefef;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	box-shadow: inset 0 0 10px #777777;
+}
+
+h2	{
+	text-decoration: underline;
+	text-align: center;
+	top: 50px;
+	padding: 10px;
+	margin: 50px;
+	width: 100%;
+	
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+	position: static;
+	text-transform: unset;
+	float: left;
+    width: 24.33%;
+    padding: 10px;
+    /*height: 300px;*/
+}
+
+button {
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	margin: 60px;
+}
+
+button:hover {
+	background-color: #1E90FF
+
+}
+
+
+styles {
+	display: inline;
+}
+
+p.solid {
+	display: inline;
+	float: left;
+	border-style: solid;
+	width: 35px;
+	padding: 15px;
+		
+}
+
+p.double {
+	display: inline;
+	float: left;
+	border-style: double;
+	width: 50px;
+	padding: 15px;
+}
+
+p.outset {
+	display: inline;
+	float: left;
+	border-style: outset;
+	width: 50px;
+	padding: 15px;
+}
+
+p.darkcyan {
+	background-color: #008B8B;
+	float: left;
+	display: inline;
+	padding: 15px;
+}
+
+p.dodgerblue {
+	background-color: #1E90FF;
+	float: left;
+	display: inline;
+	padding: 15px;
+}
+
+p.midnightblue {
+	color: #fff;
+	background-color: #191970;
+	float: left;
+	display: inline;
+	padding: 15px;
+}
+
+span.image {
+	margin-bottom: 10px;
+}
+
+img.large {
+	width: 150px;
+	height: 150px;
+	display: inline;
+	margin: 0px;
+}
+
+img.medium {
+	width: 100px;
+	height: 100px;
+	display: inline;
+	margin: 0px;
+}
+
+img.small {
+	width: 50px;
+	height: 50px;
+	display: inline;
+	margin: 0px;
+}
+
+p.hidden {
+	height: 30px;
+
+	overflow: hidden;
+}
+
+p.scroll {
+	height: 25px;
+	overflow: scroll;
+}
+
+
+img.lorem {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+img.purple {
+	height: 100px;
+	width: 250px;
+}
+
+#chrome {
+	margin-top: 20px;
+}
